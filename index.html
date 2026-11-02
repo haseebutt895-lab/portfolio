@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a class="logo" href="#home" aria-label="Haseeb home">Haseeb<span>.</span></a>
+        <nav class="links" aria-label="Main navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="contact">
+            <a href="#contact">Contact</a>
+        </div>
+    </header>
+    <main>
+        <section class="hero" id="home" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <p class="eyebrow"><span class="status-dot"></span> Frontend developer</p>
+                <h1 id="hero-title">Hi, I’m Haseeb.<br><span>I build for the web.</span></h1>
+                <p class="hero-description">
+                    I create clean, responsive experiences with thoughtful details
+                    and modern frontend technology.
+                </p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="mailto:haseebutt895@gmail.com">
+                        Let’s work together <span aria-hidden="true">↗</span>
+                    </a>
+                    <a class="button button-secondary" href="#skills">Explore my toolkit</a>
+                </div>
+                <div class="toolkit" id="skills" aria-label="Frontend technologies">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>React</span>
+                </div>
+            </div>
+            <div class="hero-visual" aria-hidden="true">
+                <div class="visual-glow"></div>
+                <div class="code-card">
+                    <div class="code-card-top">
+                        <div class="window-dots"><i></i><i></i><i></i></div>
+                        <span>haseeb.dev</span>
+                        <span class="code-mark">&lt;/&gt;</span>
+                    </div>
+                    <div class="code-content">
+                        <p class="code-comment">// a little about me</p>
+                        <p><span class="code-purple">const</span> developer = {</p>
+                        <p class="code-indent"><span class="code-blue">name</span>: <span class="code-green">'Haseeb'</span>,</p>
+                        <p class="code-indent"><span class="code-blue">role</span>: <span class="code-green">'Frontend Developer'</span>,</p>
+                        <p class="code-indent"><span class="code-blue">stack</span>: [</p>
+                        <p class="code-indent code-more"><span class="code-green">'HTML'</span>, <span class="code-green">'CSS'</span>,</p>
+                        <p class="code-indent code-more"><span class="code-green">'JavaScript'</span>, <span class="code-green">'React'</span></p>
+                        <p class="code-indent">]</p>
+                        <p>};</p>
+                        <div class="code-cursor"></div>
+                    </div>
+                    <div class="code-card-footer">
+                        <span><i></i> Ready to build something</span>
+                        <span>01 — 08</span>
+                    </div>
+                </div>
+                <div class="floating-badge"><span>✳</span> Built with curiosity</div>
+            </div>
+        </section>
+        <section class="about-section" id="about" aria-labelledby="about-title">
+            <div class="about-layout">
+                <div class="about-copy">
+                    <p class="eyebrow">A little about me</p>
+                    <h2 id="about-title">Hey, I’m Haseeb.<br><span>Nice to meet you.</span></h2>
+                    <p>
+                        I’m a frontend developer who enjoys turning ideas into clear, engaging
+                        experiences on the web. I work with HTML, CSS, JavaScript, and React to
+                        build interfaces that feel considered on every screen.
+                    </p>
+                    <p>
+                        I care about the details that make a site easy to use: thoughtful layouts,
+                        responsive design, and interactions that feel natural.
+                    </p>
+                    <div class="about-actions">
+                        <a class="button button-primary" href="#projects">See what I can build <span aria-hidden="true">↗</span></a>
+                        <a class="about-contact-link" href="#contact">Let’s talk <span aria-hidden="true">→</span></a>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="about-orbit about-orbit-one"></div>
+                    <div class="about-orbit about-orbit-two"></div>
+                    <article class="about-profile-card">
+                        <div class="about-profile-top">
+                            <span class="about-avatar" aria-hidden="true">H<span>.</span></span>
+                            <span class="about-availability"><i></i> Frontend developer</span>
+                        </div>
+                        <p class="about-card-label">MY APPROACH</p>
+                        <h3>Good design should feel effortless.</h3>
+                        <p class="about-card-description">I bring care and curiosity to every step, from the first layout to the final detail.</p>
+                        <div class="about-principles">
+                            <span><b>01</b> User-first thinking</span>
+                            <span><b>02</b> Responsive by default</span>
+                            <span><b>03</b> Clean, reusable code</span>
+                        </div>
+                        <div class="about-stack">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span>
+                        </div>
+                    </article>
+                    <span class="about-spark about-spark-one" aria-hidden="true">✳</span>
+                    <span class="about-spark about-spark-two" aria-hidden="true">✦</span>
+                </div>
+            </div>
+        </section>
+        <section class="services" id="services" aria-labelledby="services-title">
+            <div class="services-heading">
+                <p class="eyebrow">What I can do</p>
+                <h2 id="services-title">Thoughtful websites,<br><span>from first sketch to final click.</span></h2>
+                <p class="services-intro">
+                    I turn ideas into polished, easy-to-use web experiences with a modern frontend toolkit.
+                </p>
+            </div>
+            <div class="service-grid">
+                <article class="service-card">
+                    <div class="service-card-top">
+                        <span class="service-icon" aria-hidden="true">&lt;/&gt;</span>
+                        <span class="service-number">01</span>
+                    </div>
+                    <h3>Responsive web design</h3>
+                    <p>Clean, accessible layouts that look and feel great on phones, tablets, and desktops.</p>
+                    <div class="service-tags"><span>HTML</span><span>CSS</span></div>
+                </article>
+                <article class="service-card">
+                    <div class="service-card-top">
+                        <span class="service-icon service-icon-warm" aria-hidden="true">✳</span>
+                        <span class="service-number">02</span>
+                    </div>
+                    <h3>Interactive experiences</h3>
+                    <p>Useful interactions and thoughtful details that make a website feel intuitive and alive.</p>
+                    <div class="service-tags"><span>JavaScript</span><span>UI</span></div>
+                </article>
+                <article class="service-card">
+                    <div class="service-card-top">
+                        <span class="service-icon service-icon-cool" aria-hidden="true">⚛</span>
+                        <span class="service-number">03</span>
+                    </div>
+                    <h3>React development</h3>
+                    <p>Reusable components and fast, maintainable interfaces built for your product and users.</p>
+                    <div class="service-tags"><span>React</span><span>Components</span></div>
+                </article>
+            </div>
+            <div class="services-cta">
+                <p>Have an idea in mind? Let’s make it happen.</p>
+                <a href="mailto:haseebutt895@gmail.com" aria-label="Contact Haseeb about a project">Tell me about it <span aria-hidden="true">↗</span></a>
+            </div>
+        </section>
+        <section class="projects" id="projects" aria-labelledby="projects-title">
+            <div class="projects-heading">
+                <div>
+                    <p class="eyebrow">A few things I can build</p>
+                    <h2 id="projects-title">Ideas made <span>interactive.</span></h2>
+                </div>
+                <p class="projects-intro">
+                    From a polished first impression to useful everyday tools,
+                    here are a few frontend project concepts.
+                </p>
+            </div>
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-preview portfolio-preview" aria-hidden="true">
+                        <div class="preview-browser">
+                            <div class="preview-bar"><i></i><i></i><i></i><span>yourportfolio.dev</span></div>
+                            <div class="portfolio-mock">
+                                <span class="mock-label">DESIGN · DEVELOP · DELIVER</span>
+                                <span class="mock-heading">Your next<br>great idea.</span>
+                                <span class="mock-button">Explore work <b>↗</b></span>
+                                <span class="mock-orbit"></span>
+                            </div>
+                        </div>
+                        <span class="project-type">Design concept</span>
+                    </div>
+                    <div class="project-info">
+                        <div>
+                            <h3>Personal portfolio</h3>
+                            <p>A memorable, responsive home for your work and story.</p>
+                        </div>
+                        <span class="project-arrow" aria-hidden="true">↗</span>
+                    </div>
+                    <div class="project-tags"><span>HTML</span><span>CSS</span><span>Responsive</span></div>
+                </article>
+                <article class="project-card">
+                    <div class="project-preview focus-preview" aria-hidden="true">
+                        <div class="focus-mock">
+                            <div class="focus-sidebar"><b>◈</b><i></i><i></i><i></i></div>
+                            <div class="focus-main">
+                                <span class="focus-greeting">MONDAY, 9:41 AM</span>
+                                <span class="focus-title">Make room<br>for focus.</span>
+                                <div class="focus-panel"><b>Today’s focus</b><span>Build something<br>worth sharing.</span><i>Start session <b>→</b></i></div>
+                                <div class="focus-bottom"><span>02:45:00</span><i>Weekly progress <b>68%</b></i></div>
+                            </div>
+                        </div>
+                        <span class="project-type">UI concept</span>
+                    </div>
+                    <div class="project-info">
+                        <div>
+                            <h3>Focus dashboard</h3>
+                            <p>A calm productivity interface for planning deep-work sessions.</p>
+                        </div>
+                        <span class="project-arrow" aria-hidden="true">↗</span>
+                    </div>
+                    <div class="project-tags"><span>JavaScript</span><span>Interactions</span><span>UI</span></div>
+                </article>
+                <article class="project-card">
+                    <div class="project-preview shop-preview" aria-hidden="true">
+                        <div class="shop-mock">
+                            <div class="shop-nav"><b>FORME<span>.</span></b><i>NEW ARRIVALS　 OBJECTS　 ABOUT</i><b>Bag (0)</b></div>
+                            <div class="shop-feature">
+                                <div class="shop-copy"><span>MADE FOR SLOW LIVING</span><b>Good design<br>feels like home.</b><i>Discover the collection ↗</i></div>
+                                <div class="shop-object"><span></span><i></i></div>
+                            </div>
+                        </div>
+                        <span class="project-type">Storefront concept</span>
+                    </div>
+                    <div class="project-info">
+                        <div>
+                            <h3>Modern storefront</h3>
+                            <p>A product-led shopping experience with reusable React components.</p>
+                        </div>
+                        <span class="project-arrow" aria-hidden="true">↗</span>
+                    </div>
+                    <div class="project-tags"><span>React</span><span>Components</span><span>CSS</span></div>
+                </article>
+            </div>
+            <div class="projects-cta">
+                <p>Have a project in mind?</p>
+                <a href="mailto:haseebutt895@gmail.com">Let’s build it together <span aria-hidden="true">↗</span></a>
+            </div>
+        </section>
+        <section class="blog-section" id="blog" aria-labelledby="blog-title">
+            <div class="blog-heading">
+                <div>
+                    <p class="eyebrow">Notes from the frontend</p>
+                    <h2 id="blog-title">Ideas worth <span>sharing.</span></h2>
+                </div>
+                <p>Small lessons and practical ideas from building for the web.</p>
+            </div>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-art blog-art-layout" aria-hidden="true">
+                        <div class="layout-window">
+                            <span class="layout-top"><i></i><i></i><i></i></span>
+                            <span class="layout-block layout-block-wide"></span>
+                            <span class="layout-block"></span>
+                            <span class="layout-block layout-block-small"></span>
+                            <span class="layout-block layout-block-accent"></span>
+                        </div>
+                        <span class="blog-art-label">01 / LAYOUT</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="blog-meta"><span>CSS &amp; layout</span><span>Draft idea</span></div>
+                        <h3>Responsive layouts that feel intentional</h3>
+                        <p>A few practical ways to make interfaces adapt gracefully from small screens to wide ones.</p>
+                        <span class="blog-read-more">Article idea <span aria-hidden="true">↗</span></span>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-art blog-art-components" aria-hidden="true">
+                        <div class="component-stack">
+                            <span class="component-piece component-piece-back"></span>
+                            <span class="component-piece component-piece-middle"></span>
+                            <span class="component-piece component-piece-front"><i>&lt;UI /&gt;</i></span>
+                        </div>
+                        <span class="blog-art-label">02 / COMPONENTS</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="blog-meta"><span>React</span><span>Draft idea</span></div>
+                        <h3>Building reusable React components</h3>
+                        <p>How a clear component structure can make a growing interface easier to work with.</p>
+                        <span class="blog-read-more">Article idea <span aria-hidden="true">↗</span></span>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-art blog-art-accessibility" aria-hidden="true">
+                        <div class="accessibility-card">
+                            <span class="accessibility-check">✓</span>
+                            <span class="accessibility-line"></span>
+                            <span class="accessibility-line accessibility-line-short"></span>
+                            <span class="accessibility-button">Easy to use</span>
+                        </div>
+                        <span class="blog-art-label">03 / EXPERIENCE</span>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="blog-meta"><span>Web fundamentals</span><span>Draft idea</span></div>
+                        <h3>The little details that make a site easier to use</h3>
+                        <p>Thoughtful focus states, readable type, and simple interactions make a real difference.</p>
+                        <span class="blog-read-more">Article idea <span aria-hidden="true">↗</span></span>
+                    </div>
+                </article>
+            </div>
+            <p class="blog-note">These are sample topics for the blog layout. Replace them with your published articles when ready.</p>
+        </section>
+        <section class="testimonials" id="testimonials" aria-labelledby="testimonials-title">
+            <div class="testimonials-heading">
+                <p class="eyebrow">Client testimonials</p>
+                <h2 id="testimonials-title">Good work is a <span>team effort.</span></h2>
+                <p>Great results start with good collaboration. A few words from the people behind the projects.</p>
+            </div>
+            <div class="testimonial-grid">
+                <article class="testimonial-card">
+                    <span class="quote-mark" aria-hidden="true">“</span>
+                    <blockquote>
+                        Add a genuine client quote here about the collaboration, communication, and final result.
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <span class="author-avatar avatar-purple" aria-hidden="true">CN</span>
+                        <span><strong>Client name</strong><small>Project or company</small></span>
+                    </div>
+                </article>
+                <article class="testimonial-card testimonial-featured">
+                    <span class="quote-mark" aria-hidden="true">“</span>
+                    <blockquote>
+                        Replace this placeholder with real feedback describing what it was like to work together.
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <span class="author-avatar avatar-peach" aria-hidden="true">CN</span>
+                        <span><strong>Client name</strong><small>Project or company</small></span>
+                    </div>
+                </article>
+                <article class="testimonial-card">
+                    <span class="quote-mark" aria-hidden="true">“</span>
+                    <blockquote>
+                        Share a client’s words about the website, the process, or the impact of the work.
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <span class="author-avatar avatar-blue" aria-hidden="true">CN</span>
+                        <span><strong>Client name</strong><small>Project or company</small></span>
+                    </div>
+                </article>
+            </div>
+            <p class="testimonial-note">Sample content is for layout preview. Replace it with genuine client feedback before publishing.</p>
+        </section>
+        <section class="contact-section" id="contact" aria-labelledby="contact-title">
+            <div class="contact-layout">
+                <div class="contact-copy">
+                    <p class="eyebrow">Have a project in mind?</p>
+                    <h2 id="contact-title">Let’s make<br><span>something great.</span></h2>
+                    <p class="contact-description">
+                        Tell me a little about what you’re working on. I’d love to hear your idea
+                        and explore how I can help.
+                    </p>
+                    <div class="contact-note">
+                        <span class="contact-note-icon" aria-hidden="true">@</span>
+                        <div>
+                            <span class="contact-note-label">Prefer email?</span>
+                            <a href="mailto:haseebutt895@gmail.com">haseebutt895@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-note">
+                        <span class="contact-note-icon" aria-hidden="true">☎</span>
+                        <div>
+                            <span class="contact-note-label">Call me</span>
+                            <a href="tel:03010616755">03010616755</a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form" action="mailto:haseebutt895@gmail.com" method="post" enctype="text/plain">
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="contact-name">Your name</label>
+                            <input id="contact-name" name="Name" type="text" autocomplete="name" placeholder="e.g. Alex Morgan" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="contact-email">Email address</label>
+                            <input id="contact-email" name="Email" type="email" autocomplete="email" placeholder="alex@example.com" required>
+                        </div>
+                    </div>
+                    <div class="form-field">
+                        <label for="contact-subject">What’s this about?</label>
+                        <input id="contact-subject" name="Subject" type="text" placeholder="Website design, collaboration..." required>
+                    </div>
+                    <div class="form-field">
+                        <label for="contact-message">Your message</label>
+                        <textarea id="contact-message" name="Message" rows="5" placeholder="Share a few details about your project..." required></textarea>
+                    </div>
+                    <button class="button button-primary contact-submit" type="submit">
+                        Send a message <span aria-hidden="true">↗</span>
+                    </button>
+                    <p class="form-note">Your email app will open with your message ready to send.</p>
+                    <p class="form-status" id="contact-status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-main">
+            <div class="footer-brand">
+                <a class="logo footer-logo" href="#home" aria-label="Haseeb portfolio home">Haseeb<span>.</span></a>
+                <p>Building thoughtful digital experiences, one detail at a time.</p>
+            </div>
+            <div class="footer-navigation">
+                <h2>Explore</h2>
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#testimonials">Testimonials</a>
+            </div>
+            <div class="footer-connect">
+                <h2>Have an idea?</h2>
+                <p>Let’s turn it into something people love to use.</p>
+                <a class="footer-email" href="mailto:haseebutt895@gmail.com">haseebutt895@gmail.com <span aria-hidden="true">↗</span></a>
+                <a class="footer-email" href="tel:03010616755">03010616755 <span aria-hidden="true">↗</span></a>
+            </div>
+            <a class="back-to-top" href="#home" aria-label="Back to top">↑</a>
+        </div>
+        <div class="footer-bottom">
+            <p>© <span id="current-year">2026</span> Haseeb. Made with care.</p>
+            <a href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
